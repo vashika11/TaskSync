@@ -1,2 +1,77 @@
-# TaskSync
+# TaskSync – Task Management Web Application
+
+TaskSync is a modern, lightweight task management web application developed using Python (Flask) and SQLite.  
+It provides a clean and intuitive interface that allows users to securely manage tasks with support for descriptions, timestamps, and a professional dashboard experience.
+
+The application is designed with a strong focus on clarity, maintainability, and usability, making it suitable for real-world usage and future extension.
+
+
+## Features
+
+### Authentication
+- User registration
+- User login with session handling
+- Secure logout
+- User-specific data isolation
+
+### Task Management
+- Create tasks with:
+  - Title
+  - Description (optional)
+  - Automatically generated creation date and time
+- View tasks in a structured dashboard
+- Edit existing tasks
+- Delete tasks
+
+### User Interface
+- Modern and elegant login and registration pages
+- Clean, medium-sized dashboard layout
+- Dark mode toggle
+- Consistent typography and spacing for better readability
+
+
+## Technology Stack
+
+| Layer | Technology |
+| Frontend | HTML, CSS |
+| Backend | Python (Flask) |
+| Database | SQLite |
+| Styling | Custom CSS |
+| Authentication | Flask Sessions |
+
+
+## Application Details
+
+- Application Type: Web Application  
+- Architecture: Monolithic  
+- Backend Framework: Flask  
+- Database Type: SQLite (file-based)
+
+
+## Project Structure
+
+-TaskSync/
+ ├── app.py
+ ├── database.db
+ ├── requirements.txt
+ ├── README.md
+ ├── templates/
+ │ ├── login.html
+ │ ├── register.html
+ │ ├── dashboard.html
+ │ └── edit.html
+ └── static/
+ └── style.css
+
+
+## Installation and Setup
+
+### Prerequisites
+- Python 3.9 or higher
+- pip (Python package manager)
+
+Verify Python installation:
+```bash
+python --version
+Install Dependencies- pip install -r requirements.txt
 
