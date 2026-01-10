@@ -49,19 +49,19 @@ The application is designed with a strong focus on clarity, maintainability and 
 
 ## Project Structure
 
- ```bash
- TaskSync/
- ├── app.py
- ├── database.db
- ├── requirements.txt
- ├── README.md
- ├── templates/
- │ ├── login.html
- │ ├── register.html
- │ ├── dashboard.html
- │ └── edit.html
- └── static/
- └── style.css
+  ```bash
+   TaskSync/
+   ├── app.py
+   ├── database.db
+   ├── requirements.txt
+   ├── README.md
+   ├── templates/
+   │ ├── login.html
+   │ ├── register.html
+   │ ├── dashboard.html
+   │ └── edit.html
+   └── static/
+   └── style.css
 
 
 ## Setup Steps
