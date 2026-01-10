@@ -49,7 +49,7 @@ The application is designed with a strong focus on clarity, maintainability and 
 
 ## Project Structure
 
-  ```bash
+  
    TaskSync/
    ├── app.py
    ├── database.db
